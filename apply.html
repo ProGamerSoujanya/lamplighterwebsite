@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head><title>Home - My Paradise</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?famiy=Roboto
+rel="stylesheet">
+</head>
+<header>
+<a href="index.html"></a>
+<img src="image/logo.png">
+</header>
+<hr>
+<nav>
+<table cellspacing="5" cellpadding="5">
+<tr>
+<td><a href="index.html">Home</td>
+<td><a href="article.html">Article</a></td>
+<td><a href="aboutus.html">About Us</td>
+<td><a href="community.html">Community</td>
+</tr>
+</table>
+</nav>
+<hr>
+<body>
+<div class="application-box">
+<h1>Apply For Staff</h1>
+<form id="apply-form" method="POST" action="thanksyou.html">
+      <label>First Name</label>
+      <input name="name" type="text" placeholder="Your Name" required><br>
+      <label>Last Name</label>
+      <input name="lastname" type="text" placeholder="Your Last Name" required><br>
+      <label>Email</label>
+      <input name="email" type="email" placeholder="example@example.com" required><br>
+      <label>Your Works</label>
+      <input name="description" type="text" min="200" max="500" placeholder="Tell us about yourself,why you want to join us, how you can help us ! Please mention them in more than 200 words." required><br>
+<label>Age</label>
+<input name="age" type="number" name="age" id="age" min="18" max="60" required><br>
+<label>Birthdate</label>
+<input name="birthdate" type="date" name="date" id="date" min="1900-01-01" max= 2050-12-12" required><br>
+<a href="thanksyou.html"><input type="submit" class="form-control submit"value="APPLY"></a>
+
+</div>
+</form>
+</body>
+</html>
